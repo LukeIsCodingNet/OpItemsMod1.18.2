@@ -1,0 +1,20 @@
+{
+  "itemGroup.op_item_tab": "Op Items Mod: Items",
+  "itemGroup.op_materials_tab": "Op Items Mod: Materials",
+  "itemGroup.op_blocks_tab": "Op Items Mod: Blocks",
+  "itemGroup.op_combat_tab": "Op Items Mod: Combat",
+  "itemGroup.op_tools_tab": "Op Items Mod: Tools",
+  "item.opitemsmod_1182.test_item": "Test Item",
+  "item.opitemsmod_1182.topaz": "Topaz",
+  "item.opitemsmod_1182.dragon_slayer": "§bDragon Slayer",
+  "item.opitemsmod_1182.topaz_sword": "Topaz Sword",
+  "item.opitemsmod_1182.topaz_shovel": "Topaz Shovel",
+  "item.opitemsmod_1182.topaz_pickaxe": "Topaz Pickaxe",
+  "item.opitemsmod_1182.topaz_hoe": "Topaz Hoe",
+  "item.opitemsmod_1182.topaz_axe": "Topaz Axe",
+  "item.opitemsmod_1182.ruby": "Ruby",
+  "block.opitemsmod_1182.topaz_block": "Block of Topaz",
+  "block.opitemsmod_1182.topaz_ore": "Topaz Ore",
+  "block.opitemsmod_1182.topaz_deepslate_ore": "Deepslate Topaz Ore",
+  "block.opitemsmod_1182.ruby_block": "Block of Ruby"
+}

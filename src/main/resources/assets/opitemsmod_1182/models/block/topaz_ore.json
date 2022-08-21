@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "opitemsmod_1182:blocks/topaz_ore"
+  }
+}

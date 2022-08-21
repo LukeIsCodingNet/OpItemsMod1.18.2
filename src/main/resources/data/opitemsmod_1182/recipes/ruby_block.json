@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "opitemsmod_1182:ruby"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:ruby_block",
+    "count": 1
+  }
+}

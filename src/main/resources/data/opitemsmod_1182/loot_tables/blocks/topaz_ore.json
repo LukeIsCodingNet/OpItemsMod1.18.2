@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 4,
+      "bonus_rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:topaz"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 3
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:topaz"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:topaz"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:topaz_ore"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
