@@ -52,11 +52,27 @@ public class RegisterBlockItems {
             new BlockItem(RegisterBlocks.RUBY_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 
+    public static final RegistryObject<Item> RUBY_SLAB_ITEM = BLOCK_ITEMS.register("ruby_slab", () ->
+            new BlockItem(RegisterBlocks.RUBY_SLAB.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> TOPAZ_SLAB_ITEM = BLOCK_ITEMS.register("topaz_slab", () ->
+            new BlockItem(RegisterBlocks.TOPAZ_SLAB.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> CARBONADO_SLAB_ITEM = BLOCK_ITEMS.register("carbonado_slab", () ->
+            new BlockItem(RegisterBlocks.CARBONADO_SLAB.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
     public static final RegistryObject<Item> TEST_TNT_BLOCK_ITEM = BLOCK_ITEMS.register("test_tnt", () ->
             new BlockItem(RegisterBlocks.TEST_TNT.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 
     public static final RegistryObject<Item> NUKE_BLOCK_ITEM = BLOCK_ITEMS.register("nuke", () ->
             new BlockItem(RegisterBlocks.NUKE_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> CARBONADO_BLOCK_ITEM = BLOCK_ITEMS.register("carbonado_block", () ->
+            new BlockItem(RegisterBlocks.CARBONADO_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 }

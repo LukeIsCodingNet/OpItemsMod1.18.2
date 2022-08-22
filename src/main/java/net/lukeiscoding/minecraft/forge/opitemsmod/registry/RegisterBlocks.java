@@ -38,6 +38,12 @@ public class RegisterBlocks {
     // blocks...
     public static final RegistryObject<Block> TOPAZ_BLOCK = BLOCKS.register("topaz_block", TopazBlock::new);
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> CARBONADO_BLOCK = BLOCKS.register("carbonado_block", CarbonadoBlock::new);
+
+    // slabs
+    public static final RegistryObject<Block> RUBY_SLAB = BLOCKS.register("ruby_slab", RubySlab::new);
+    public static final RegistryObject<Block> TOPAZ_SLAB = BLOCKS.register("topaz_slab", TopazSlab::new);
+    public static final RegistryObject<Block> CARBONADO_SLAB = BLOCKS.register("carbonado_slab", CarbonadoSlab::new);
 
     // ores...
     public static final RegistryObject<Block> TOPAZ_ORE = BLOCKS.register("topaz_ore", TopazOre::new);

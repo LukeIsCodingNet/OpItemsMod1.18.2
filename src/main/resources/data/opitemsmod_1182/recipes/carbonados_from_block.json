@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "opitemsmod_1182:carbonado_block"
+    }
+  ],
+  "result": {
+    "item": "opitemsmod_1182:carbonado",
+    "count": 9
+  }
+}

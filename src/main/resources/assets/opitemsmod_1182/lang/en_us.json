@@ -13,8 +13,12 @@
   "item.opitemsmod_1182.topaz_hoe": "Topaz Hoe",
   "item.opitemsmod_1182.topaz_axe": "Topaz Axe",
   "item.opitemsmod_1182.ruby": "Ruby",
+  "item.opitemsmod_1182.carbonado": "Carbonado",
   "block.opitemsmod_1182.topaz_block": "Block of Topaz",
   "block.opitemsmod_1182.topaz_ore": "Topaz Ore",
   "block.opitemsmod_1182.topaz_deepslate_ore": "Deepslate Topaz Ore",
-  "block.opitemsmod_1182.ruby_block": "Block of Ruby"
+  "block.opitemsmod_1182.ruby_block": "Block of Ruby",
+  "block.opitemsmod_1182.ruby_slab": "Ruby Slab",
+  "block.opitemsmod_1182.topaz_slab": "Topaz Slab",
+  "block.opitemsmod_1182.carbonado_block": "Block of Carbonado"
 }

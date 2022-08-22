@@ -42,6 +42,7 @@ public class RegisterItems {
     // materials
     public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz", BaseMaterialItem::new);
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", BaseMaterialItem::new);
+    public static final RegistryObject<Item> CARBONADO = ITEMS.register("carbonado", BaseMaterialItem::new);
 
     // swords...
     public static final RegistryObject<SwordItem> DRAGON_SAYER = ITEMS.register("dragon_slayer", () ->

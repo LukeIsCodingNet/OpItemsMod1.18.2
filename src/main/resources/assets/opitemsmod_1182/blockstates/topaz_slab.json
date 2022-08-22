@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "opitemsmod_1182:block/topaz_slab"
+    },
+    "type=double": {
+      "model": "opitemsmod_1182:block/topaz_block"
+    },
+    "type=top": {
+      "model": "opitemsmod_1182:block/topaz_slab_top"
+    }
+  }
+}
