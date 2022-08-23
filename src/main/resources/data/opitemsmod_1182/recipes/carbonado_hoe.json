@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC",
+    " S",
+    " S"
+  ],
+  "key": {
+    "C": {
+      "item": "opitemsmod_1182:carbonado"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:carbonado_hoe"
+  }
+}

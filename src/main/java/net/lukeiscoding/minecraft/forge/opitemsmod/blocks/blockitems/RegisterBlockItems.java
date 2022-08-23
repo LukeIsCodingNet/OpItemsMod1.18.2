@@ -44,12 +44,40 @@ public class RegisterBlockItems {
             new BlockItem(RegisterBlocks.TOPAZ_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 
-    public static final RegistryObject<Item> TOPAZ_DEEPSLATE_ORE = BLOCK_ITEMS.register("topaz_deepslate_ore", () ->
+    public static final RegistryObject<Item> TOPAZ_DEEPSLATE_ORE_ITEM = BLOCK_ITEMS.register("topaz_deepslate_ore", () ->
             new BlockItem(RegisterBlocks.TOPAZ_DEEPSLATE_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = BLOCK_ITEMS.register("ruby_ore", () ->
+            new BlockItem(RegisterBlocks.RUBY_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_DEEPSLATE_ORE_ITEM = BLOCK_ITEMS.register("ruby_deepslate_ore", () ->
+            new BlockItem(RegisterBlocks.RUBY_DEEPSLATE_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> CARBONADO_ORE_ITEM = BLOCK_ITEMS.register("carbonado_ore", () ->
+            new BlockItem(RegisterBlocks.CARBONADO_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> CARBONADO_DEEPSLATE_ORE_ITEM = BLOCK_ITEMS.register("carbonado_deepslate_ore", () ->
+            new BlockItem(RegisterBlocks.CARBONADO_DEEPSLATE_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = BLOCK_ITEMS.register("ruby_block", () ->
             new BlockItem(RegisterBlocks.RUBY_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_SLAB_ITEM = BLOCK_ITEMS.register("ruby_slab", () ->
+            new BlockItem(RegisterBlocks.RUBY_SLAB.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> TOPAZ_SLAB_ITEM = BLOCK_ITEMS.register("topaz_slab", () ->
+            new BlockItem(RegisterBlocks.TOPAZ_SLAB.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> CARBONADO_SLAB_ITEM = BLOCK_ITEMS.register("carbonado_slab", () ->
+            new BlockItem(RegisterBlocks.CARBONADO_SLAB.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 
     public static final RegistryObject<Item> TEST_TNT_BLOCK_ITEM = BLOCK_ITEMS.register("test_tnt", () ->
@@ -58,5 +86,9 @@ public class RegisterBlockItems {
 
     public static final RegistryObject<Item> NUKE_BLOCK_ITEM = BLOCK_ITEMS.register("nuke", () ->
             new BlockItem(RegisterBlocks.NUKE_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> CARBONADO_BLOCK_ITEM = BLOCK_ITEMS.register("carbonado_block", () ->
+            new BlockItem(RegisterBlocks.CARBONADO_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
 }

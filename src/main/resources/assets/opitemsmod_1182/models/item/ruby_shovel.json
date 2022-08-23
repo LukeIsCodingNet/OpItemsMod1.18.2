@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "opitemsmod_1182:items/ruby_shovel"
+  }
+}

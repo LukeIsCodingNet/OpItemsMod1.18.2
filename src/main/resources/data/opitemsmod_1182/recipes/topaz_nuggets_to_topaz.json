@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "opitemsmod_1182:topaz"
+    }
+  ],
+  "result": {
+    "item": "opitemsmod_1182:topaz_nugget",
+    "count": 9
+  }
+}

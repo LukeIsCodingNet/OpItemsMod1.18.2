@@ -25,5 +25,8 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 public class ModPlacedFeatures {
 
     public static final Holder<PlacedFeature> TOPAZ_ORE_PLACED = PlacementUtils.register("topaz_ore_placed", ModConfigureFeatures.TOPAZ_ORE, OrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-10), VerticalAnchor.aboveBottom(10))));
-    public static final Holder<PlacedFeature> TOPAZ_DEEPSLATE_ORE_PLACED = PlacementUtils.register("topaz_deepslate_ore", ModConfigureFeatures.TOPAZ_DEEPSLATE_ORE, OrePlacement.commonOrePlacement(40, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(20), VerticalAnchor.aboveBottom(20))));
+    public static final Holder<PlacedFeature> TOPAZ_DEEPSLATE_ORE_PLACED = PlacementUtils.register("topaz_deepslate_ore_placed", ModConfigureFeatures.TOPAZ_DEEPSLATE_ORE, OrePlacement.commonOrePlacement(40, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(20), VerticalAnchor.aboveBottom(20))));
+
+    public static final Holder<PlacedFeature> CARBONADO_ORE_PLACED = PlacementUtils.register("carbonado_ore_placed", ModConfigureFeatures.CARBONADO_ORE, OrePlacement.commonOrePlacement(60, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-10), VerticalAnchor.aboveBottom(10))));
+    public static final Holder<PlacedFeature> CARBONADO_DEEPSLATE_ORE_PLACED = PlacementUtils.register("carbonado_deepslate_ore_placed", ModConfigureFeatures.CARBONADO_DEEPSLATE_ORE, OrePlacement.commonOrePlacement(80, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(20), VerticalAnchor.aboveBottom(20))));
 }

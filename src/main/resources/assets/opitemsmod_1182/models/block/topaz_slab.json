@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "opitemsmod_1182:blocks/topaz_block",
+    "top": "opitemsmod_1182:blocks/topaz_block",
+    "side": "opitemsmod_1182:blocks/topaz_block"
+  }
+}

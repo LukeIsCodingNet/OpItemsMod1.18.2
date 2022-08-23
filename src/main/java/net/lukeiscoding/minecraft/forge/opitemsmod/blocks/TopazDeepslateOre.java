@@ -25,7 +25,7 @@ public class TopazDeepslateOre extends Block {
 
     public TopazDeepslateOre() {
         super(BlockBehaviour.Properties.of(Material.STONE)
-                .sound(SoundType.STONE)
+                .sound(SoundType.DEEPSLATE)
                 .strength(9.0f, 13.2f)
                 .requiresCorrectToolForDrops());
     }

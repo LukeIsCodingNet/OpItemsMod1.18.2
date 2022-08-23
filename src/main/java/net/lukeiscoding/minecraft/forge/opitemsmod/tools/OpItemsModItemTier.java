@@ -43,6 +43,36 @@ public enum OpItemsModItemTier {
     ),
     TOPAZ_HOE(3, 9000, 400.0f, 40.0f, 800, BlockTags.NEEDS_DIAMOND_TOOL, () ->
             Ingredient.of(RegisterItems.TOPAZ_HOE.get())
+    ),
+    RUBY_SWORD(3, 10000, 800.0f, 80.0f, 900, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.RUBY_SWORD.get())
+    ),
+    RUBY_SHOVEL(3, 10000, 800.0f, 80.0f, 900, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.RUBY_SHOVEL.get())
+    ),
+    RUBY_PICKAXE(3, 10000, 800.0f, 80.0f, 900, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.RUBY_PICKAXE.get())
+    ),
+    RUBY_AXE(3, 10000, 800.0f, 80.0f, 900, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.RUBY_AXE.get())
+    ),
+    RUBY_HOE(3, 10000, 800,80.0f, 900, BlockTags.NEEDS_DIAMOND_TOOL,() ->
+            Ingredient.of(RegisterItems.RUBY_HOE.get())
+    ),
+    CARBONADO_SWORD(3, 40000, 950.0f, 100.0f, 12000, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.CARBONADO_SWORD.get())
+    ),
+    CARBONADO_SHOVEL(3, 40000, 950.0f, 100.0f, 12000, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.CARBONADO_SHOVEL.get())
+    ),
+    CARBONADO_PICKAXE(3, 40000, 950.0f, 100.0f, 12000, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.CARBONADO_PICKAXE.get())
+    ),
+    CARBONADO_AXE(3, 40000, 950.0f, 100.0f, 12000, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.CARBONADO_AXE.get())
+    ),
+    CARBONADO_HOE(3, 40000, 950.0f, 100.0f, 12000, BlockTags.NEEDS_DIAMOND_TOOL, () ->
+            Ingredient.of(RegisterItems.CARBONADO_HOE.get())
     );
 
     private final int level;

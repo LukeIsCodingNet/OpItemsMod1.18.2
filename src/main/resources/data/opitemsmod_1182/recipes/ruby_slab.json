@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "opitemsmod_1182:ruby_block"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:ruby_slab",
+    "count": 6
+  }
+}

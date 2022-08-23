@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "opitemsmod_1182:items/carbonado_hoe"
+  }
+}
