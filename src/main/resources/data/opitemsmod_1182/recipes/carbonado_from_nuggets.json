@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "opitemsmod_1182:carbonado_nugget"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:carbonado",
+    "count": 1
+  }
+}

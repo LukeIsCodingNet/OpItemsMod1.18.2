@@ -5,6 +5,13 @@
     "opitemsmod_1182:topaz_ore",
     "opitemsmod_1182:topaz_deepslate_ore",
     "opitemsmod_1182:ruby_slab",
-    "opitemsmod_1182:topaz_slab"
+    "opitemsmod_1182:topaz_slab",
+    "opitemsmod_1182:carbonado_slab",
+    "opitemsmod_1182:ruby_block",
+    "opitemsmod_1182:carbonado_block",
+    "opitemsmod_1182:ruby_ore",
+    "opitemsmod_1182:ruby_deepslate_ore",
+    "opitemsmod_1182:carbonado_ore",
+    "opitemsmod_1182:carbonado_deepslate_ore"
   ]
 }

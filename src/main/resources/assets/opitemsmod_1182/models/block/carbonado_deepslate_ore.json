@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "opitemsmod_1182:blocks/deepslate_carbonado_ore"
+  }
+}

@@ -48,6 +48,10 @@ public class RegisterBlocks {
     // ores...
     public static final RegistryObject<Block> TOPAZ_ORE = BLOCKS.register("topaz_ore", TopazOre::new);
     public static final RegistryObject<Block> TOPAZ_DEEPSLATE_ORE = BLOCKS.register("topaz_deepslate_ore", TopazDeepslateOre::new);
+    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
+    public static final RegistryObject<Block> RUBY_DEEPSLATE_ORE = BLOCKS.register("ruby_deepslate_ore", RubyDeepslateOre::new);
+    public static final RegistryObject<Block> CARBONADO_ORE = BLOCKS.register("carbonado_ore", CarbonadoOre::new);
+    public static final RegistryObject<Block> CARBONADO_DEEPSLATE_ORE = BLOCKS.register("carbonado_deepslate_ore", CarbonadoDeepslateOre::new);
 
     // TNT...
     public static final RegistryObject<TntBlock> NUKE_BLOCK = BLOCKS.register("nuke", NukeBlock::new);

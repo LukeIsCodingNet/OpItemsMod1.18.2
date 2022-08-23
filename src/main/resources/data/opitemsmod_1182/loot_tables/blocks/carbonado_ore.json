@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:carbonado"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 3
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:carbonado"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:carbonado"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:carbonado_ore"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opitemsmod_1182:carbonado"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {},
+          "add": false
+        }
+      ]
+    }
+  ]
+}

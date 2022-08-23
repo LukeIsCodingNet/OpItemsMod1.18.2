@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "opitemsmod_1182:items/topaz_nugget"
+  }
+}
