@@ -18,12 +18,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import net.lukeiscoding.minecraft.forge.opitemsmod.OpItemsMod;
 import net.lukeiscoding.minecraft.forge.opitemsmod.blocks.*;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.TntBlock;
+import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Supplier;
 
 public class RegisterBlocks {
 
@@ -39,6 +42,7 @@ public class RegisterBlocks {
     public static final RegistryObject<Block> TOPAZ_BLOCK = BLOCKS.register("topaz_block", TopazBlock::new);
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Block> CARBONADO_BLOCK = BLOCKS.register("carbonado_block", CarbonadoBlock::new);
+    public static final RegistryObject<Block> TIKI_PORTAL_FRAME = BLOCKS.register("tiki_portal_frame", TikiPortalFrame::new);
 
     // slabs
     public static final RegistryObject<Block> RUBY_SLAB = BLOCKS.register("ruby_slab", RubySlab::new);
@@ -56,4 +60,25 @@ public class RegisterBlocks {
     // TNT...
     public static final RegistryObject<TntBlock> NUKE_BLOCK = BLOCKS.register("nuke", NukeBlock::new);
     public static final RegistryObject<TntBlock> TEST_TNT = BLOCKS.register("test_tnt", TestTNT::new);
+
+    // buttons...
+    public static final RegistryObject<StoneButtonBlock> RUBY_BUTTON = BLOCKS.register("ruby_button", () ->
+            new StoneButtonBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.5f, 6.5f).requiresCorrectToolForDrops().noCollission())
+    );
+
+    // pressure plates...
+    public static final RegistryObject<PressurePlateBlock> RUBY_PRESSURE_PLATE = BLOCKS.register("ruby_pressure_plate", () ->
+            new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL).strength(6.5f, 7.5f).requiresCorrectToolForDrops())
+    );
+
+    // doors...
+    public static final RegistryObject<DoorBlock> RUBY_DOOR = BLOCKS.register("ruby_door", RubyDoor::new);
+
+    // trapdoors...
+    public static final RegistryObject<TrapDoorBlock> RUBY_TRAPDOOR = BLOCKS.register("ruby_trapdoor", RubyTrapdoor::new);
+
+    // helpers...
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+        return BLOCKS.register(name, block);
+    }
 }

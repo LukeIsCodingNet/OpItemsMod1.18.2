@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "opitemsmod_1182:blocks/ruby_door_top",
+    "bottom": "opitemsmod_1182:blocks/ruby_door_bottom"
+  }
+}

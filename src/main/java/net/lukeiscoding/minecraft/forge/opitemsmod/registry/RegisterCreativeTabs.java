@@ -56,4 +56,18 @@ public class RegisterCreativeTabs {
             return new ItemStack(RegisterItems.TOPAZ_SHOVEL.get());
         }
     };
+
+    public static final CreativeModeTab OP_FOODS_TAB = new CreativeModeTab("op_foods_tab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(RegisterItems.WEED_BROWNIE.get());
+        }
+    };
+
+    public static final CreativeModeTab OP_REDSTONE_TAB = new CreativeModeTab("op_redstone_tab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(RegisterBlockItems.RUBY_DOOR.get());
+        }
+    };
 }

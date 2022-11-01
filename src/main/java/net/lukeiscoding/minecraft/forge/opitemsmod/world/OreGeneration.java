@@ -32,5 +32,8 @@ public class OreGeneration {
         base.add(ModPlacedFeatures.TOPAZ_ORE_PLACED);
         base.add(ModPlacedFeatures.TOPAZ_DEEPSLATE_ORE_PLACED);
         base.add(ModPlacedFeatures.CARBONADO_ORE_PLACED);
+        base.add(ModPlacedFeatures.CARBONADO_DEEPSLATE_ORE_PLACED);
+        base.add(ModPlacedFeatures.RUBY_ORE_PLACED);
+        base.add(ModPlacedFeatures.RUBY_DEEPSLATE_ORE_PLACED);
     }
 }

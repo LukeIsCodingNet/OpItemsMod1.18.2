@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "TT",
-    " S ",
-    " S "
+    "## ",
+    " / ",
+    " / "
   ],
   "key": {
-    "T": {
+    "#": {
       "item": "opitemsmod_1182:topaz"
     },
-    "S": {
+    "/": {
       "item": "minecraft:stick"
     }
   },
