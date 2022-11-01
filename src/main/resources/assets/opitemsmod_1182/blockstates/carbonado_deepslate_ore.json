@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "opitemsmod_1182:carbonado_deepslate_ore"
+      "model": "opitemsmod_1182:block/carbonado_deepslate_ore"
     }
   }
 }

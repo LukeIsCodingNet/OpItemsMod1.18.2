@@ -91,4 +91,24 @@ public class RegisterBlockItems {
     public static final RegistryObject<Item> CARBONADO_BLOCK_ITEM = BLOCK_ITEMS.register("carbonado_block", () ->
             new BlockItem(RegisterBlocks.CARBONADO_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
     );
+
+    public static final RegistryObject<Item> TIKI_PORTAL_FRAME_ITEM = BLOCK_ITEMS.register("tiki_portal_frame", () ->
+            new BlockItem(RegisterBlocks.TIKI_PORTAL_FRAME.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_BUTTON = BLOCK_ITEMS.register("ruby_button", () ->
+            new BlockItem(RegisterBlocks.RUBY_BUTTON.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_PRESSURE_PLATE = BLOCK_ITEMS.register("ruby_pressure_plate", () ->
+            new BlockItem(RegisterBlocks.RUBY_PRESSURE_PLATE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_DOOR = BLOCK_ITEMS.register("ruby_door", () ->
+            new BlockItem(RegisterBlocks.RUBY_DOOR.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> RUBY_TRAPDOOR = BLOCK_ITEMS.register("ruby_trapdoor", () ->
+            new BlockItem(RegisterBlocks.RUBY_TRAPDOOR.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
 }

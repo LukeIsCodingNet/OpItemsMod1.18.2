@@ -19,6 +19,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import net.lukeiscoding.minecraft.forge.opitemsmod.blocks.blockitems.RegisterBlockItems;
 import net.lukeiscoding.minecraft.forge.opitemsmod.registry.RegisterBlocks;
 import net.lukeiscoding.minecraft.forge.opitemsmod.registry.RegisterItems;
+import net.lukeiscoding.minecraft.forge.opitemsmod.world.dimension.ModDimensions;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -34,7 +37,7 @@ public class OpItemsMod {
     public static final String MOD_ID = "opitemsmod_1182";
 
     // create a string to reference the mod version
-    public static final String MOD_VERSION = "0.1.0";
+    public static final String MOD_VERSION = "0.0.2-alpha";
 
     // get a logger
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
@@ -53,6 +56,9 @@ public class OpItemsMod {
         // call the registerBlockItems in the RegisterBlockItems class to register block items
         RegisterBlockItems.registerBlockItems();
 
+        // call the registerDimension method in the ModDimensions class to register dimensions
+        ModDimensions.registerDimensions();
+
         // register this mod to the forge event bus
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -64,5 +70,7 @@ public class OpItemsMod {
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(RegisterBlocks.RUBY_DOOR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(RegisterBlocks.RUBY_TRAPDOOR.get(), RenderType.translucent());
     }
 }

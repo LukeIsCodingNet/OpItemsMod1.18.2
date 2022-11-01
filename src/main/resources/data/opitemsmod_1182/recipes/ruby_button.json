@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "opitemsmod_1182:ruby_nugget"
+    }
+  ],
+  "result": {
+    "item": "opitemsmod_1182:ruby_button",
+    "count": 1
+  }
+}

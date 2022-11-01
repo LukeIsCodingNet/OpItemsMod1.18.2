@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "opitemsmod_1182:ruby_slab",
+    "opitemsmod_1182:ruby_block",
+    "opitemsmod_1182:ruby_ore",
+    "opitemsmod_1182:ruby_deepslate_ore",
+    "opitemsmod_1182:ruby_door",
+    "opitemsmod_1182:ruby_trapdoor",
+    "opitemsmod_1182:ruby_button",
+    "opitemsmod_1182:ruby_pressure_plate"
+  ]
+}

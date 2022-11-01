@@ -26,6 +26,9 @@ import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.entity.player.Player;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CommandOpItemsMod {
 
     public static void register(final CommandDispatcher<CommandSourceStack> dispatcher) {
@@ -36,16 +39,17 @@ public class CommandOpItemsMod {
         if (command.getSource().getEntity() instanceof Player) {
             Player player = (Player) command.getSource().getEntity();
 
-            String[] messages = {
-                    "OpItemsMod for Minecraft 1.18.2",
-                    "Version: " + OpItemsMod.MOD_VERSION,
-                    "Mod ID: " + OpItemsMod.MOD_ID,
-                    "Made by: Luke Is Coding",
-                    "My website: https://lukeiscoding.net",
-                    "Donation link: https://ko-fi.com/lukeiscoding"
-            };
+            final List<String> messages = new ArrayList<>();
+            messages.add("OpItemsMod for Minecraft 1.18.2");
+            messages.add("Version: " + OpItemsMod.MOD_VERSION);
+            messages.add("Mod ID: " + OpItemsMod.MOD_ID);
+            messages.add("Made by: Luke Is Coding");
+            messages.add("My website: https://lukeiscoding.net");
+            messages.add("Donation link: https://ko-fi.com/lukeiscoding");
 
-            player.sendMessage(new TextComponent(messages.toString()), Util.NIL_UUID);
+            for (String s : messages) {
+                player.sendMessage(new TextComponent(s), Util.NIL_UUID);
+            }
         }
 
         return Command.SINGLE_SUCCESS;

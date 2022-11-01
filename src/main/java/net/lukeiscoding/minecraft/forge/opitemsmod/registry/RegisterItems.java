@@ -19,6 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import net.lukeiscoding.minecraft.forge.opitemsmod.OpItemsMod;
 import net.lukeiscoding.minecraft.forge.opitemsmod.items.BaseItem;
 import net.lukeiscoding.minecraft.forge.opitemsmod.items.BaseMaterialItem;
+import net.lukeiscoding.minecraft.forge.opitemsmod.items.food.WeedBrownie;
 import net.lukeiscoding.minecraft.forge.opitemsmod.tools.ModItemTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -39,13 +40,16 @@ public class RegisterItems {
     // items...
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", BaseItem::new);
 
-    // materials
+    // materials...
     public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz", BaseMaterialItem::new);
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", BaseMaterialItem::new);
     public static final RegistryObject<Item> CARBONADO = ITEMS.register("carbonado", BaseMaterialItem::new);
     public static final RegistryObject<Item> TOPAZ_NUGGET = ITEMS.register("topaz_nugget", BaseMaterialItem::new);
     public static final RegistryObject<Item> RUBY_NUGGET = ITEMS.register("ruby_nugget", BaseMaterialItem::new);
     public static final RegistryObject<Item> CARBONADO_NUGGET = ITEMS.register("carbonado_nugget", BaseMaterialItem::new);
+
+    // foods...
+    public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", WeedBrownie::new);
 
     // swords...
     public static final RegistryObject<SwordItem> DRAGON_SAYER = ITEMS.register("dragon_slayer", () ->
@@ -56,7 +60,7 @@ public class RegisterItems {
             new SwordItem(ModItemTiers.TOPAZ_SWORD, 0, 0, new Item.Properties().tab(RegisterCreativeTabs.OP_COMBAT_TAB))
     );
 
-    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sowrd", () ->
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
             new SwordItem(ModItemTiers.RUBY_SWORD, 0, 0, new Item.Properties().tab(RegisterCreativeTabs.OP_COMBAT_TAB))
     );
 

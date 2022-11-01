@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " R ",
-    " R ",
-    " S "
+    "RR",
+    "RR",
+    "RR"
   ],
   "key": {
     "R": {
       "item": "opitemsmod_1182:ruby"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "opitemsmod_1182:ruby_sword",
-    "count": 1
+    "item": "opitemsmod_1182:ruby_door",
+    "count": 3
   }
 }

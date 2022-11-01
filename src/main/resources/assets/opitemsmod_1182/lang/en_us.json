@@ -4,6 +4,8 @@
   "itemGroup.op_blocks_tab": "Op Items Mod: Blocks",
   "itemGroup.op_combat_tab": "Op Items Mod: Combat",
   "itemGroup.op_tools_tab": "Op Items Mod: Tools",
+  "itemGroup.op_foods_tab": "Op Items Mod: Foods",
+  "itemGroup.op_redstone_tab": "Op Items Mod: Redstone",
   "item.opitemsmod_1182.test_item": "Test Item",
   "item.opitemsmod_1182.topaz": "Topaz",
   "item.opitemsmod_1182.dragon_slayer": "§bDragon Slayer",
@@ -27,6 +29,7 @@
   "item.opitemsmod_1182.carbonado_axe": "Carbonado Axe",
   "item.opitemsmod_1182.carbonado_shovel": "Carbonado Shovel",
   "item.opitemsmod_1182.carbonado_hoe": "Carbonado Hoe",
+  "item.opitemsmod_1182.weed_brownie": "Weed Brownie",
   "block.opitemsmod_1182.topaz_block": "Block of Topaz",
   "block.opitemsmod_1182.topaz_ore": "Topaz Ore",
   "block.opitemsmod_1182.topaz_deepslate_ore": "Deepslate Topaz Ore",
@@ -38,5 +41,10 @@
   "block.opitemsmod_1182.ruby_ore": "Ruby Ore",
   "block.opitemsmod_1182.ruby_deepslate_ore": "Deepslate Ruby Ore",
   "block.opitemsmod_1182.carbonado_ore": "Carbonado Ore",
-  "block.opitemsmod_1182.carbonado_deepslate_ore": "Deepslate Carbonado Ore"
+  "block.opitemsmod_1182.carbonado_deepslate_ore": "Deepslate Carbonado Ore",
+  "block.opitemsmod_1182.tiki_portal_frame": "Tiki Portal Frame",
+  "block.opitemsmod_1182.ruby_door": "Ruby Door",
+  "block.opitemsmod_1182.ruby_button": "Ruby Button",
+  "block.opitemsmod_1182.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.opitemsmod_1182.ruby_trapdoor": "Ruby Trapdoor"
 }
