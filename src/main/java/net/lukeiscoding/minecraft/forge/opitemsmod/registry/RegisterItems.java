@@ -47,6 +47,9 @@ public class RegisterItems {
     public static final RegistryObject<Item> TOPAZ_NUGGET = ITEMS.register("topaz_nugget", BaseMaterialItem::new);
     public static final RegistryObject<Item> RUBY_NUGGET = ITEMS.register("ruby_nugget", BaseMaterialItem::new);
     public static final RegistryObject<Item> CARBONADO_NUGGET = ITEMS.register("carbonado_nugget", BaseMaterialItem::new);
+    public static final RegistryObject<Item> RAW_BRASS = ITEMS.register("raw_brass", BaseMaterialItem::new);
+    public static final RegistryObject<Item> BRASS_INGOT = ITEMS.register("brass_ingot", BaseMaterialItem::new);
+    public static final RegistryObject<Item> BRASS_ROD = ITEMS.register("brass_rod", BaseMaterialItem::new);
 
     // foods...
     public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", WeedBrownie::new);

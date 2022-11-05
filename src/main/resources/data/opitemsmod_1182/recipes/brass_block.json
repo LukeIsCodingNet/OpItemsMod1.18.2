@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "opitemsmod_1182:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:brass_block",
+    "count": 1
+  }
+}

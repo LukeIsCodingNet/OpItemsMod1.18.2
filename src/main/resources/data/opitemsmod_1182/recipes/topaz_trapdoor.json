@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "opitemsmod_1182:topaz"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:topaz_trapdoor",
+    "count": 1
+  }
+}

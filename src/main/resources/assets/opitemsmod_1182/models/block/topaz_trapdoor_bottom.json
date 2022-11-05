@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "opitemsmod_1182:blocks/topaz_trapdoor"
+  }
+}

@@ -43,6 +43,11 @@ public class ModConfigureFeatures {
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, RegisterBlocks.RUBY_DEEPSLATE_ORE.get().defaultBlockState())
     );
 
+    public static final List<OreConfiguration.TargetBlockState> OVER_WORLD_BRASS_ORE = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, RegisterBlocks.BRASS_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, RegisterBlocks.BRASS_DEEPSLATE_ORE.get().defaultBlockState())
+    );
+
     /**
      * @var p_161014_ = vain size
      */
@@ -55,4 +60,7 @@ public class ModConfigureFeatures {
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> RUBY_ORE = FeatureUtils.register("ruby_ore", Feature.ORE, new OreConfiguration(OVER_WORLD_RUBY_ORE, 40));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> RUBY_DEEPSLATE_ORE = FeatureUtils.register("ruby_deepslate_ore", Feature.ORE, new OreConfiguration(OVER_WORLD_RUBY_ORE, 40));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BRASS_ORE = FeatureUtils.register("brass_ore", Feature.ORE, new OreConfiguration(OVER_WORLD_BRASS_ORE, 56));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BRASS_DEEPSLATE_ORE = FeatureUtils.register("brass_deepslate_ore", Feature.ORE, new OreConfiguration(OVER_WORLD_BRASS_ORE, 56));
 }

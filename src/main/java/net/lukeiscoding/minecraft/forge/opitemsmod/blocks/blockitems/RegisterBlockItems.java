@@ -111,4 +111,32 @@ public class RegisterBlockItems {
     public static final RegistryObject<Item> RUBY_TRAPDOOR = BLOCK_ITEMS.register("ruby_trapdoor", () ->
             new BlockItem(RegisterBlocks.RUBY_TRAPDOOR.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
     );
+
+    public static final RegistryObject<Item> TOPAZ_DOOR = BLOCK_ITEMS.register("topaz_door", () ->
+            new BlockItem(RegisterBlocks.TOPAZ_DOOR.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> TOPAZ_BUTTON = BLOCK_ITEMS.register("topaz_button", () ->
+            new BlockItem(RegisterBlocks.TOPAZ_BUTTON.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> TOPAZ_PRESSURE_PLATE = BLOCK_ITEMS.register("topaz_pressure_plate", () ->
+            new BlockItem(RegisterBlocks.TOPAZ_PRESSURE_PLATE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> TOPAZ_TRAP_DOOR = BLOCK_ITEMS.register("topaz_trapdoor", () ->
+            new BlockItem(RegisterBlocks.TOPAZ_TRAPDOOR.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_REDSTONE_TAB))
+    );
+
+    public static final RegistryObject<Item> BRASS_BLOCK = BLOCK_ITEMS.register("brass_block", () ->
+            new BlockItem(RegisterBlocks.BRASS_BLOCK.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> BRASS_ORE = BLOCK_ITEMS.register("brass_ore", () ->
+            new BlockItem(RegisterBlocks.BRASS_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> BRASS_DEEPSLATE_ORE = BLOCK_ITEMS.register("brass_deepslate_ore", () ->
+            new BlockItem(RegisterBlocks.BRASS_DEEPSLATE_ORE.get(), new Item.Properties().tab(RegisterCreativeTabs.OP_BLOCKS_TAB))
+    );
 }

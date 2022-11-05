@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "opitemsmod_1182:blocks/topaz_door_top",
+    "bottom": "opitemsmod_1182:blocks/topaz_door_bottom"
+  }
+}

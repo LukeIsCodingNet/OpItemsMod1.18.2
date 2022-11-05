@@ -30,6 +30,9 @@
   "item.opitemsmod_1182.carbonado_shovel": "Carbonado Shovel",
   "item.opitemsmod_1182.carbonado_hoe": "Carbonado Hoe",
   "item.opitemsmod_1182.weed_brownie": "Weed Brownie",
+  "item.opitemsmod_1182.raw_brass": "Raw Brass",
+  "item.opitemsmod_1182.brass_ingot": "Brass Ingot",
+  "item.opitemsmod_1182.brass_rod": "Brass Rod",
   "block.opitemsmod_1182.topaz_block": "Block of Topaz",
   "block.opitemsmod_1182.topaz_ore": "Topaz Ore",
   "block.opitemsmod_1182.topaz_deepslate_ore": "Deepslate Topaz Ore",
@@ -46,5 +49,12 @@
   "block.opitemsmod_1182.ruby_door": "Ruby Door",
   "block.opitemsmod_1182.ruby_button": "Ruby Button",
   "block.opitemsmod_1182.ruby_pressure_plate": "Ruby Pressure Plate",
-  "block.opitemsmod_1182.ruby_trapdoor": "Ruby Trapdoor"
+  "block.opitemsmod_1182.ruby_trapdoor": "Ruby Trapdoor",
+  "block.opitemsmod_1182.topaz_door": "Topaz Door",
+  "block.opitemsmod_1182.topaz_button": "Topaz Button",
+  "block.opitemsmod_1182.topaz_pressure_plate": "Topaz Pressure Plate",
+  "block.opitemsmod_1182.topaz_trapdoor": "Topaz Trapdoor",
+  "block.opitemsmod_1182.brass_block": "Block of Brass",
+  "block.opitemsmod_1182.brass_ore": "Brass Ore",
+  "block.opitemsmod_1182.brass_deepslate_ore": "Deepslate Brass Ore"
 }

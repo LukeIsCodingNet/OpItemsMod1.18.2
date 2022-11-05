@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "opitemsmod_1182:topaz"
+    }
+  },
+  "result": {
+    "item": "opitemsmod_1182:topaz_pressure_plate",
+    "count": 1
+  }
+}

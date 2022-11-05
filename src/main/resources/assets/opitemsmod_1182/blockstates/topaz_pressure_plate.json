@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "opitemsmod_1182:block/topaz_pressure_plate" },
+    "powered=true": { "model": "opitemsmod_1182:block/topaz_pressure_plate_down" }
+  }
+}

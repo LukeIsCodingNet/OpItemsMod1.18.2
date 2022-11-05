@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "opitemsmod_1182:blocks/topaz_block"
+  }
+}

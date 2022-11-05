@@ -32,4 +32,7 @@ public class ModPlacedFeatures {
 
     public static final Holder<PlacedFeature> RUBY_ORE_PLACED = PlacementUtils.register("ruby_ore_placed", ModConfigureFeatures.RUBY_ORE, OrePlacement.commonOrePlacement(18, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-16), VerticalAnchor.aboveBottom(16))));
     public static final Holder<PlacedFeature> RUBY_DEEPSLATE_ORE_PLACED = PlacementUtils.register("ruby_deepslate_ore_placed", ModConfigureFeatures.RUBY_DEEPSLATE_ORE, OrePlacement.commonOrePlacement(18, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-16), VerticalAnchor.aboveBottom(16))));
+
+    public static final Holder<PlacedFeature> BRASS_ORE_PLACED = PlacementUtils.register("brass_ore_placed", ModConfigureFeatures.BRASS_ORE, OrePlacement.commonOrePlacement(56, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-18), VerticalAnchor.aboveBottom(18))));
+    public static final Holder<PlacedFeature> BRASS_DEEPSLATE_ORE_PLACED = PlacementUtils.register("brass_deepslate_ore_placed", ModConfigureFeatures.RUBY_DEEPSLATE_ORE, OrePlacement.commonOrePlacement(56, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-18), VerticalAnchor.aboveBottom(18))));
 }

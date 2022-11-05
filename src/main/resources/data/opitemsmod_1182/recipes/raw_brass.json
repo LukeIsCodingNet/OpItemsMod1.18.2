@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "opitemsmod_1182:raw_brass"
+  },
+  "result": "opitemsmod_1182:brass_ingot",
+  "experience": 4.75,
+  "cookingtime": 200
+}

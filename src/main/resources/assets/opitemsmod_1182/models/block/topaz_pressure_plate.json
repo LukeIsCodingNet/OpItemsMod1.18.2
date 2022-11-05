@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "opitemsmod_1182:blocks/topaz_block"
+  }
+}

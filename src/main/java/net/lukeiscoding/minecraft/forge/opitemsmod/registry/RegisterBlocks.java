@@ -19,8 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import net.lukeiscoding.minecraft.forge.opitemsmod.OpItemsMod;
 import net.lukeiscoding.minecraft.forge.opitemsmod.blocks.*;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -43,6 +41,7 @@ public class RegisterBlocks {
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Block> CARBONADO_BLOCK = BLOCKS.register("carbonado_block", CarbonadoBlock::new);
     public static final RegistryObject<Block> TIKI_PORTAL_FRAME = BLOCKS.register("tiki_portal_frame", TikiPortalFrame::new);
+    public static final RegistryObject<Block> BRASS_BLOCK = BLOCKS.register("brass_block", BrassBlock::new);
 
     // slabs
     public static final RegistryObject<Block> RUBY_SLAB = BLOCKS.register("ruby_slab", RubySlab::new);
@@ -56,26 +55,28 @@ public class RegisterBlocks {
     public static final RegistryObject<Block> RUBY_DEEPSLATE_ORE = BLOCKS.register("ruby_deepslate_ore", RubyDeepslateOre::new);
     public static final RegistryObject<Block> CARBONADO_ORE = BLOCKS.register("carbonado_ore", CarbonadoOre::new);
     public static final RegistryObject<Block> CARBONADO_DEEPSLATE_ORE = BLOCKS.register("carbonado_deepslate_ore", CarbonadoDeepslateOre::new);
+    public static final RegistryObject<Block> BRASS_ORE = BLOCKS.register("brass_ore", BrassOre::new);
+    public static final RegistryObject<Block> BRASS_DEEPSLATE_ORE = BLOCKS.register("brass_deepslate_ore", BrassDeepslateOre::new);
 
     // TNT...
     public static final RegistryObject<TntBlock> NUKE_BLOCK = BLOCKS.register("nuke", NukeBlock::new);
     public static final RegistryObject<TntBlock> TEST_TNT = BLOCKS.register("test_tnt", TestTNT::new);
 
     // buttons...
-    public static final RegistryObject<StoneButtonBlock> RUBY_BUTTON = BLOCKS.register("ruby_button", () ->
-            new StoneButtonBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.5f, 6.5f).requiresCorrectToolForDrops().noCollission())
-    );
+    public static final RegistryObject<StoneButtonBlock> RUBY_BUTTON = BLOCKS.register("ruby_button", RubyButton::new);
+    public static final RegistryObject<StoneButtonBlock> TOPAZ_BUTTON = BLOCKS.register("topaz_button", TopazButton::new);
 
     // pressure plates...
-    public static final RegistryObject<PressurePlateBlock> RUBY_PRESSURE_PLATE = BLOCKS.register("ruby_pressure_plate", () ->
-            new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL).strength(6.5f, 7.5f).requiresCorrectToolForDrops())
-    );
+    public static final RegistryObject<PressurePlateBlock> RUBY_PRESSURE_PLATE = BLOCKS.register("ruby_pressure_plate", RubyPressurePlate::new);
+    public static final RegistryObject<PressurePlateBlock> TOPAZ_PRESSURE_PLATE = BLOCKS.register("topaz_pressure_plate", TopazPressurePlate::new);
 
     // doors...
     public static final RegistryObject<DoorBlock> RUBY_DOOR = BLOCKS.register("ruby_door", RubyDoor::new);
+    public static final RegistryObject<DoorBlock> TOPAZ_DOOR = BLOCKS.register("topaz_door", TopazDoor::new);
 
     // trapdoors...
     public static final RegistryObject<TrapDoorBlock> RUBY_TRAPDOOR = BLOCKS.register("ruby_trapdoor", RubyTrapdoor::new);
+    public static final RegistryObject<TrapDoorBlock> TOPAZ_TRAPDOOR = BLOCKS.register("topaz_trapdoor", TopazTrapdoor::new);
 
     // helpers...
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {

@@ -70,7 +70,10 @@ public class OpItemsMod {
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
+        LOGGER.info("Op Items Mod has finished setting up client events.");
         ItemBlockRenderTypes.setRenderLayer(RegisterBlocks.RUBY_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(RegisterBlocks.RUBY_TRAPDOOR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(RegisterBlocks.TOPAZ_DOOR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(RegisterBlocks.TOPAZ_TRAPDOOR.get(), RenderType.translucent());
     }
 }
